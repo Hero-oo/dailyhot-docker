@@ -1,7 +1,7 @@
 FROM node:alpine
 
-LABEL version="1.0.5" \
-      maintainer="wang@rehiy.com"
+LABEL version="1.0.6" \
+      maintainer="wang.hero@outlook.com"
 
 ENV APP_ICP=
 ENV APP_COPYRIGHT=Example
