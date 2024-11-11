@@ -42,7 +42,7 @@ sed -i 's|"github": "https://github.com/imsyy"|"github": "APP_COPYRIGHT_URL"|' p
 
 echo "VITE_GLOBAL_API=/dailyhot/api" >.env
 echo "VITE_ICP=APP_ICP" >>.env
-echo "VITE_DIR=/dailyhot/" >>.env
+echo "VITE_DIR=/dailyhot" >>.env
 
 [ -d node_modules ] || npm i
 [ -d dist ] || npm run build
